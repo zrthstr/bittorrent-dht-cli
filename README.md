@@ -9,13 +9,16 @@ The code is closely based on [aiobtdht](https://github.com/bashkirtsevich-llc/ai
 Activate the Python virtual environment and install dependencies:
 
 ```bash
-% source bin/activate    # Activate the virtual environment
+% git clone git@github.com:zrthstr/bittorrent-dht-cli.git
+% cd bittorrent-dht-cli
+% python -m venv venv
+% source venv/bin/activate    # Activate the virtual environment
 % pip install -r requirements.txt  # Install required Python packages
 ```
 
 ## Usage:
 ```bash
-% source bin/activate
+% source bin/activate ## only if not done before inside in this shell
 % python bittorrent_dht_cli.py 8df9e68813c4232db0506c897ae4c210daa98250
 
 # Expected example output:
